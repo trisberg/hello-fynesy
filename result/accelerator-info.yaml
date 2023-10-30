@@ -1,0 +1,15 @@
+id: ad1f3f42-1f27-4932-b9d6-304c222563fb
+timestamp: 2023-10-30T18:44:50.684Z
+source: TAP-GUI
+username: trisberg
+accelerator:
+  name: spring-cloud-serverless
+fragments:
+  - name: build-wrapper-maven
+  - name: tap-workload
+options:
+  bsGitBranch: main
+  projectName: hello-fynesy
+  deploymentType: workload
+  includeBuildToolWrapper: true
+  bsGitRepository: github.com?owner=trisberg&repo=hello-fynesy
